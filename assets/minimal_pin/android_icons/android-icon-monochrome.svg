@@ -1,0 +1,31 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <!-- Monochrome: white shapes on transparent — Android 13+ themed icons -->
+  <!-- Pin shape -->
+  <path d="M512 100 C350 100 220 230 220 400 C220 580 512 900 512 900 C512 900 804 580 804 400 C804 230 674 100 512 100Z" fill="white"/>
+
+  <!-- Circle cutout in pin (slightly smaller to keep pin ring visible) -->
+  <circle cx="512" cy="400" r="175" fill="white" opacity="0.15"/>
+
+  <!-- Truck body silhouette -->
+  <rect x="360" y="322" width="304" height="176" rx="28" fill="white" opacity="0.9"/>
+
+  <!-- Awning stripe — slightly less opaque to show contrast -->
+  <rect x="360" y="322" width="304" height="60" rx="22" fill="white" opacity="0.6"/>
+  <rect x="360" y="358" width="304" height="24" fill="white" opacity="0.6"/>
+
+  <!-- Window openings — cut darker to show window -->
+  <rect x="372" y="350" width="130" height="96" rx="10" fill="white" opacity="0.35"/>
+  <rect x="514" y="356" width="136" height="78" rx="8" fill="white" opacity="0.35"/>
+
+  <!-- Exhaust stack -->
+  <rect x="628" y="296" width="30" height="78" rx="6" fill="white" opacity="0.9"/>
+
+  <!-- Undercarriage -->
+  <rect x="360" y="490" width="304" height="30" rx="6" fill="white" opacity="0.9"/>
+
+  <!-- Wheels -->
+  <circle cx="424" cy="510" r="36" fill="white" opacity="0.9"/>
+  <circle cx="424" cy="510" r="16" fill="white" opacity="0.3"/>
+  <circle cx="592" cy="510" r="36" fill="white" opacity="0.9"/>
+  <circle cx="592" cy="510" r="16" fill="white" opacity="0.3"/>
+</svg>

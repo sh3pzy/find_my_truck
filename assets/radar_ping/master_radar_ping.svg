@@ -1,0 +1,67 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1024" height="1024" rx="230" fill="#003F5C"/>
+
+  <!-- Radar rings -->
+  <circle cx="512" cy="512" r="420" fill="none" stroke="#48B4E0" stroke-width="6" opacity="0.2"/>
+  <circle cx="512" cy="512" r="300" fill="none" stroke="#48B4E0" stroke-width="6" opacity="0.3"/>
+  <circle cx="512" cy="512" r="180" fill="none" stroke="#48B4E0" stroke-width="6" opacity="0.45"/>
+  <line x1="512" y1="92" x2="512" y2="932" stroke="#48B4E0" stroke-width="3" opacity="0.15"/>
+  <line x1="92" y1="512" x2="932" y2="512" stroke="#48B4E0" stroke-width="3" opacity="0.15"/>
+
+  <!-- Radar sweep -->
+  <path d="M512 512 L512 212 A300 300 0 0 1 772 662Z" fill="#48B4E0" opacity="0.1"/>
+
+  <!-- Truck body -->
+  <rect x="180" y="560" width="530" height="260" rx="40" fill="#FFD166"/>
+
+  <!-- Roof awning stripe -->
+  <rect x="180" y="560" width="530" height="80" rx="36" fill="#FF6B6B"/>
+  <rect x="180" y="610" width="530" height="30" fill="#FF6B6B"/>
+
+  <!-- Main service window -->
+  <rect x="200" y="600" width="210" height="160" rx="14" fill="#003F5C"/>
+  <rect x="200" y="600" width="210" height="160" rx="14" fill="#48B4E0" opacity="0.75"/>
+  <line x1="305" y1="600" x2="305" y2="760" stroke="#003F5C" stroke-width="8" opacity="0.4"/>
+  <rect x="200" y="672" width="210" height="10" fill="#003F5C" opacity="0.25"/>
+
+  <!-- Window ledge -->
+  <rect x="196" y="756" width="218" height="18" rx="5" fill="#cc8800" opacity="0.7"/>
+
+  <!-- Menu board -->
+  <rect x="424" y="616" width="200" height="126" rx="10" fill="#FFF9F0" opacity="0.08"/>
+  <rect x="436" y="626" width="176" height="106" rx="8" fill="#48B4E0" opacity="0.4"/>
+  <line x1="524" y1="616" x2="524" y2="742" stroke="#FFD166" stroke-width="4" opacity="0.3"/>
+  <!-- Menu lines -->
+  <rect x="448" y="644" width="60" height="8" rx="3" fill="#FFF9F0" opacity="0.55"/>
+  <rect x="448" y="664" width="46" height="8" rx="3" fill="#FFF9F0" opacity="0.45"/>
+  <rect x="448" y="684" width="52" height="8" rx="3" fill="#FFF9F0" opacity="0.4"/>
+  <rect x="448" y="704" width="38" height="8" rx="3" fill="#FFF9F0" opacity="0.35"/>
+  <rect x="536" y="644" width="60" height="8" rx="3" fill="#FFD166" opacity="0.55"/>
+  <rect x="536" y="664" width="60" height="8" rx="3" fill="#FFD166" opacity="0.55"/>
+  <rect x="536" y="684" width="60" height="8" rx="3" fill="#FFD166" opacity="0.55"/>
+  <rect x="536" y="704" width="60" height="8" rx="3" fill="#FFD166" opacity="0.55"/>
+
+  <!-- Exhaust stack -->
+  <rect x="658" y="502" width="34" height="90" rx="10" fill="#FFF9F0" opacity="0.75"/>
+  <rect x="646" y="494" width="58" height="28" rx="10" fill="#FFF9F0" opacity="0.65"/>
+
+  <!-- Undercarriage -->
+  <rect x="180" y="800" width="530" height="40" rx="10" fill="#cc8800" opacity="0.5"/>
+
+  <!-- Wheels -->
+  <circle cx="300" cy="838" r="56" fill="#003F5C"/>
+  <circle cx="300" cy="838" r="36" fill="#FFD166"/>
+  <circle cx="300" cy="838" r="14" fill="#003F5C"/>
+
+  <circle cx="580" cy="838" r="56" fill="#003F5C"/>
+  <circle cx="580" cy="838" r="36" fill="#FFD166"/>
+  <circle cx="580" cy="838" r="14" fill="#003F5C"/>
+
+  <!-- Step between wheels -->
+  <rect x="360" y="810" width="168" height="50" rx="8" fill="#cc8800" opacity="0.45"/>
+
+  <!-- Live ping dot -->
+  <circle cx="762" cy="262" r="54" fill="#FF6B6B"/>
+  <circle cx="762" cy="262" r="34" fill="white"/>
+  <circle cx="762" cy="262" r="14" fill="#FF6B6B"/>
+</svg>
